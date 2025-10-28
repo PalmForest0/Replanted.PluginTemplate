@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "PalmForest",
+  "classifications": [ "Plugin", "BepInEx", "IL2CPP" ],
+  "name": "Replanted BepInEx Plugin",
+  "identity": "Replanted.PluginTemplate",
+  "shortName": "replanted-plugin",
+  "sourceName": "ReplantedTemplate",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "symbols": {
+    "Version": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "1.0.0",
+      "replaces": "PluginVersion"
+    },
+    "Id": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "com.replantedplugin",
+      "replaces": "PluginId"
+    }
+  }
+}
