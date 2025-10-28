@@ -5,18 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <RootNamespace>ReplantedTemplate</RootNamespace>
-  
-	<PackageId>Replanted.PluginTemplate</PackageId>
-    <Version>1.0.1</Version>
-	<Authors>PalmForest</Authors>
-    <Description>A .NET Project template for creating a PvZ: Replanted BepInEx plugin. </Description>
-	<RepositoryUrl>https://github.com/PalmForest0/ReplantedPluginTemplate</RepositoryUrl>
-    <PackageTags>Replanted;BepInEx;Plugin;Template</PackageTags>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include=".template.config\template.json" />
-  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="0Harmony">
