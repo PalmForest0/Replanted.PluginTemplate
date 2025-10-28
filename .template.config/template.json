@@ -3,7 +3,7 @@
   "author": "PalmForest",
   "classifications": [ "Plugin", "BepInEx", "IL2CPP" ],
   "name": "Replanted BepInEx Plugin",
-  "identity": "Replanted.BepInEx.PluginTemplate",
+  "identity": "Replanted.PluginTemplate",
   "shortName": "replanted-plugin",
   "sourceName": "ReplantedTemplate",
   "preferNameDirectory": true,
