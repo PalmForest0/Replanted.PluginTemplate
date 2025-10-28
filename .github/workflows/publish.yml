@@ -22,13 +22,13 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore ./TemplatePackage/TemplatePackage.csproj
+        run: dotnet restore TemplatePackage.csproj
 
       - name: Build the project
-        run: dotnet build ./TemplatePackage/TemplatePackage.csproj --configuration Release --no-restore
+        run: dotnet build TemplatePackage.csproj --configuration Release --no-restore
 
       - name: Pack the project
-        run: dotnet pack ./TemplatePackage/TemplatePackage.csproj --configuration Release --no-build --output ./nupkg
+        run: dotnet pack TemplatePackage.csproj --configuration Release --no-build --output ./nupkg
 
       - name: Login to NuGet.org using OIDC
         id: login
