@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./TemplatePackage/TemplatePackage.csproj
 
       - name: Build the project
         run: dotnet build ./TemplatePackage/TemplatePackage.csproj --configuration Release --no-restore
