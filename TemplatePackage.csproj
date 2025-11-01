@@ -3,7 +3,7 @@
 	<TargetFramework>net6.0</TargetFramework>
     <PackageType>Template</PackageType>
     <PackageId>Replanted.PluginTemplate</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.4</Version>
     <Authors>PalmForest</Authors>
     <Description>A .NET project template for creating a PvZ: Replanted BepInEx plugin.</Description>
     <RepositoryUrl>https://github.com/PalmForest0/Replanted.PluginTemplate</RepositoryUrl>
