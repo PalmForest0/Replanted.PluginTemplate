@@ -6,6 +6,8 @@
 A simple [BepInEx](https://github.com/BepInEx/BepInEx) plugin template for modding **Plants vs Zombies: Replanted**.
 This template provides a blank starting project to help you create a custom plugin quickly and easily.
 
+**If you need help or want to be a part of the Plants vs Zombies: Replanted modding community, join our [Discord server](https://discord.gg/UfBMKTHN5b)!**
+
 ## Features
 
 * Preconfigured plugin structure with necessary IL2CPP assembly references
