@@ -3,20 +3,22 @@
 	<TargetFramework>net6.0</TargetFramework>
     <PackageType>Template</PackageType>
     <PackageId>Replanted.PluginTemplate</PackageId>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <Authors>PalmForest</Authors>
     <Description>A .NET project template for creating a PvZ: Replanted BepInEx plugin.</Description>
     <RepositoryUrl>https://github.com/PalmForest0/Replanted.PluginTemplate</RepositoryUrl>
     <PackageTags>Replanted;BepInEx;Plugin;Template</PackageTags>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
 	
 	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 	<EnableDefaultItems>false</EnableDefaultItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="ReplantedTemplate\**\*"
-          Pack="true"
-          PackagePath="content"
-          Exclude="ReplantedTemplate\bin\**;ReplantedTemplate\obj\**;ReplantedTemplate\.vs\**;ReplantedTemplate\.git\**;ReplantedTemplate\.idea\**" />
+    <None Include="ReplantedTemplate\**\*" Pack="true" PackagePath="content" Exclude="ReplantedTemplate\bin\**;ReplantedTemplate\obj\**;ReplantedTemplate\.vs\**;ReplantedTemplate\.git\**;ReplantedTemplate\.idea\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 </Project>
