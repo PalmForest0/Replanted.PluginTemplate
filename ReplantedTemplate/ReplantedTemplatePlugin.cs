@@ -7,6 +7,7 @@ using Reloaded.Gameplay;
 namespace ReplantedTemplate;
 
 [BepInPlugin(Name, Name, Version)]
+[BepInProcess("Replanted.exe")]
 public class ReplantedTemplatePlugin : BasePlugin
 {
     public const string Name = "ReplantedTemplate";
